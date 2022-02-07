@@ -1,0 +1,31 @@
+hr {
+  border: none;
+  border-top: 3px double rgb(212, 101, 101);
+  color: rgb(37, 199, 228);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.navbar {
+  background: rgb(196, 79, 190);
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+  font-family: "Libre Barcode 39 Extended Text", cursive;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  font-family: "Zen Kurenaido", sans-serif;
+}
